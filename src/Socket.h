@@ -18,6 +18,8 @@
 #if !defined(SOCKET_H)
 #define SOCKET_H
 
+#define USE_SELECT 1
+
 #include <stdint.h>
 #include <sys/types.h>
 
